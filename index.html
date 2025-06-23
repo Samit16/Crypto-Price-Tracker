@@ -4,20 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Crypto Price Tracker</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <div class="container">
     <h1>Crypto Price Tracker</h1>
     
     <div class="input-section">
-      <input type="text" id="coinInput" placeholder="Enter coin name (e.g., bitcoin)" />
+      <select id="coinDropdown">
+      <option value="bitcoin">Bitcoin</option>
+      <option value="ethereum">Ethereum</option>
+      <option value="solana">Solana</option>
+      <option value="dogecoin">Dogecoin</option>
+      <option value="litecoin">Litecoin</option>
+      <option value="ripple">Ripple</option>
+      </select>
       <button onclick="fetchPrice()">Get Price</button>
     </div>
-
-    <div id="result" class="result-card">
-    
-    </div>
+    <div id="result" class="result-card"></div>
   </div>
 
   <script src="script.js"></script>

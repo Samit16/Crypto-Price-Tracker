@@ -28,7 +28,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-input {
+select {
   padding: 10px;
   width: 70%;
   border: none;
@@ -54,6 +54,7 @@ button {
   border-radius: 10px;
   display: none;
   text-align: left;
+  margin-top: 20px;
 }
 
 .result-card span {
