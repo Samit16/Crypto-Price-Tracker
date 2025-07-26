@@ -2,6 +2,10 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #e6edf3;
   display: flex;
   justify-content: center;
