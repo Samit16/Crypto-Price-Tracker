@@ -17,8 +17,8 @@ body {
   width: 95%;
   max-width: 600px;
   text-align: center;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   background-color: rgba(22, 27, 34, 0.4);
   padding: 40px;
   border-radius: 12px;
