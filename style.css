@@ -10,13 +10,13 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 500px;
+  width: 95%;
+  max-width: 600px;
   text-align: center;
   background-color: #161b22;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #1f6feb44;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px #1f6feb44;
 }
 
 h1 {
