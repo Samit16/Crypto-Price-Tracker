@@ -17,6 +17,7 @@ body {
   width: 95%;
   max-width: 600px;
   text-align: center;
+  backdrop-filter: blur(50px);
   background-color: #161b22;
   padding: 40px;
   border-radius: 12px;
