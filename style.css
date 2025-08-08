@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-image: url(bg.jpg);
   background-size: cover;
   background-position: center;
@@ -17,8 +17,8 @@ body {
   width: 95%;
   max-width: 600px;
   text-align: center;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   background-color: rgba(22, 27, 34, 0.4);
   padding: 40px;
   border-radius: 12px;
@@ -27,7 +27,10 @@ body {
 
 h1 {
   margin-bottom: 30px;
-  color: #58a6ff;
+  color: #000000;
+  font-size: 2.5rem;
+  font-weight:600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .input-section {
@@ -46,10 +49,10 @@ select {
 button {
   padding: 10px 15px;
   margin-left: 5px;
-  background-color: #238636;
+  background-color: #187a2c;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
   cursor: pointer;
 }
 
