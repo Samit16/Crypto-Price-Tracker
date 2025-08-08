@@ -50,10 +50,11 @@ button {
   padding: 10px 15px;
   margin-left: 5px;
   background-color: #187a2c;
+  box-shadow: #51d76b;
   color: white;
   border: none;
   border-radius: 7px;
-  cursor: pointer;
+  cursor:pointer;
 }
 
 .result-card {
