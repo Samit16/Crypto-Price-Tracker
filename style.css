@@ -57,6 +57,8 @@ button {
 }
 
 .result-card {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   background-color: #0d1117;
   border: 1px solid #30363d;
   padding: 20px;
